@@ -1,0 +1,463 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.genlayout{
+    border: 2px solid;
+    max-width: 82%;
+    margin: 2rem auto;
+}
+header{
+    width: 100%;
+    background-color: white;
+    /* height: 100px; */
+    border: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Adding shadow */
+
+   
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;  
+    /* height: 18px;     */
+ }
+
+ .ticker, #toggle{
+    display: none;
+ }
+ .rightnav{
+   width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .MIDDLEITEMS>a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    color: black;
+    
+ }
+
+ .left{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 22px;
+ }
+ .rightnav>.right>a>button{
+    font-family: "DM Serif Display", serif;
+    /* font-weight: 400; */
+    font-size: 16px;
+    padding: .5rem 1.7rem;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+ }
+
+
+
+
+
+ /* ========================================================== */
+
+/* section 1 styling */
+
+.secone{
+    margin-block: 5rem;
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+}
+.sectionwraper{
+    border: none;
+}
+
+.cardraper{
+    display: flex;
+    position: relative;
+}
+
+.imgdiv{
+    position: absolute;
+    right: 0;
+    top: 95px;
+    z-index: 1;
+}
+
+.lin>img {
+    right: 0;
+    margin-top: -4.5rem;
+    z-index: 2;
+    position: absolute;
+    /* border: 3px solid green; */
+    width: 400px;
+    overflow: hidden;
+}
+.leftline>img{
+  position: absolute;
+  margin-top: -11.5rem;
+  left: 0rem;
+  overflow: hidden;
+  height: 450px;
+  /* border: 3px solid green; */
+}
+
+.writdiv > .horizontalline{
+   /* border: 2px solid green; */
+   width: 170px;
+   margin-top: 95px;
+   color: hsl(0, 0%, 98%);
+}
+.writdiv{
+    /* border: 3px solid green; */
+    width: 540px;
+}
+.writdiv>h1{
+    color: hsl(0, 0%, 98%);
+    font-family: "Karla", serif;
+    font-size: 70px;
+    /* font-optical-sizing: auto; */
+    font-weight: 700;
+    margin-top: 3rem;
+   
+}
+.writdiv>p{
+    color: hsl(0, 0%, 98%);
+    margin-block: 2rem;
+    font-family: "Karla", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+}
+.writdiv>a>button{
+    /* background-color: hsl(0, 0%, 98%); */
+    border: none;
+    padding: .6rem 2rem;
+    margin-bottom: 9rem;
+}
+
+
+
+
+/* ======================================================================= */
+
+
+/* section 2 */
+
+.sectwo{
+  margin-top: 16rem;
+}
+
+.hrlinetwo{
+  width: 170px;
+  margin-left: 7.9rem;
+  margin-block: 2rem;
+}
+
+.headersectwo{
+  max-width: 82%;
+  /* border: 3px solid; */
+  margin: auto;
+  font-family: "DM Serif Display", serif;
+  font-weight: 100;
+  font-size: 22px;
+}
+.headersectwo>h1{
+  font-family: "DM Serif Display", serif;
+  font-weight: 100;
+  font-size: 60px;
+  opacity: .7;
+}
+
+#containnersectwo{
+  max-width: 82%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+
+.circldiv1{
+  margin-block: 3rem;
+}
+
+
+
+.letteeh1>h2{
+  margin-block: 1rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 100;
+  font-size: 22px;
+}
+.letteeh1>p{
+  margin-block: 1rem;
+  font-family: "DM Serif Display", serif;
+  /* font-weight: 100; */
+  font-size: 16px;
+  opacity: .7;
+}
+
+
+
+
+/* ===================================================================================== */
+
+/* section 3 */
+
+
+
+
+
+
+/* =============================================================== */
+
+/* footer section */
+
+footer{
+  background-color: #fafafa;
+  position: relative;
+  border: 1px solid #fafafa;
+
+}
+
+.conternatfooter{
+  max-width: 82%;
+  margin: auto;
+  z-index: 1;
+}
+
+.iconfooter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.3rem;
+}
+
+.iconfooter>.fouricon{
+  width: 150px;
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.footerwriteup{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.ullist{
+  margin-bottom: 4rem;
+}
+
+.ullist>ul>p{
+  font-family: "DM Serif Display", serif;
+  font-size: 18px;
+  opacity: .7;
+  margin-bottom: 1rem;
+}
+
+.ullist>ul>li{
+list-style: none;
+}
+.ullist>ul>li{
+  margin-block: .5rem;
+  }
+  .ullist>ul>li>a{
+    text-decoration: none;
+    font-family: "DM Serif Display", serif;
+    font-size: 14px;
+    color: black;
+  }
+
+
+
+  
+
+ 
+
+  
+  
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+@media(min-width: 240px) and (max-width: 1000px){
+    .ticker{
+        display: block;
+        font-size: 29px;
+        z-index: 1000;
+    }
+  
+   
+    .rightnav{
+        display: none;
+        width: 180px;
+    }
+
+    .contain{
+        max-width: 90%;
+    }
+    #toggle:checked + .rightnav {
+        display: block;
+      }
+
+      .rightnav> .MIDDLEITEMS{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2rem;
+      }
+      .rightnav>.right{
+        margin-left: 2rem;
+      }
+
+
+
+
+      /* ============================================================ */
+
+      /* section 1 */
+   
+      .sectionwraper{
+        max-width: 100%;
+      }
+
+      .imgdiv{
+        margin-top: -4.6rem;
+        width: 100%;
+      }
+
+      .imgdiv>img{
+        width: 100%;
+      }
+
+  
+
+      .writdiv{
+        /* border: 20px solid black; */
+        margin: auto;
+        max-width: 90%;
+        
+      }
+
+
+      .cardraper>.writdiv>h1{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 43rem;
+      }
+      .cardraper>.writdiv>p{
+        /* max-width: 90%; */
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .cardraper>.writdiv>a{
+        /* max-width: 90%; */
+        /* border: 20px solid green; */
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+      }
+
+      .cardraper>.writdiv>a>button{
+        margin: auto;
+        margin-bottom: 5rem;
+        
+      }
+
+      .leftline{
+        margin-top: -585px;
+        z-index: -1;
+      }
+
+    
+
+      .secone{
+        margin-block: 5rem;
+        background-color: hsl(256, 26%, 20%);
+        position: relative;
+    }
+
+    .lin>img {
+        margin-top: 65rem;
+        z-index: 1;
+        width: 180px;
+        
+    }
+    
+
+  
+    
+
+    /* ====================================================== */
+    /* section 2 */
+    .sectwo{
+      margin-top: 45rem;
+    }
+
+    .hrlinetwo{
+      margin: auto;
+    }
+
+    .headersectwo{
+      margin: 2rem auto;
+      /* border: 3px solid green; */
+      text-align: center;
+    }
+    .headersectwo>h1{
+      font-size: 40px;
+    }
+
+    #containnersectwo{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .circldiv1{
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+  
+    .letteeh1>h2,p{
+      text-align: center;
+    }
+
+
+    /* =================================== */
+    /* footer  */
+
+    .iconfooter{
+      flex-direction: column;
+      justify-content: center;
+      border: 2px solid;
+    }
+    .iconfooter>div{
+      display: flex;
+      justify-content: center;
+      border: 2px solid;
+    }
+    
+}
